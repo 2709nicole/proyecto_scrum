@@ -13,7 +13,9 @@
     <?php include 'menu.php'?>
     <br>
         <nav class="nav" >
-
+        <div class="text-center">
+        <img src="cakebymalvynLOGO.png" class="img-fluid" alt="...">
+        </div>
         </nav>
     <script src="js/bootstrap.js"></script>
 </body>

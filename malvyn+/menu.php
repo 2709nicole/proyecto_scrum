@@ -1,5 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
-        <button style="background-color: #white;"><i class="fas fa-bars" ></i></button>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" style="background-color: #white;"><i class="fas fa-bars" ></i></button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="crearpastel.php">Crear Pastel</a>
+          </div>
+        </div>
+        
         <div class="container">
         <a class="navbar-brand" href="inicio.php">Cakes by Malvyn</a>
         </div>

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video gamestore</title>
+    <title>cakebymalvyn</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.css">
     <script src="js/jquery-3.6.1.js"></script>
 </head>
-<body style="background-color: #a6caed;">
+<body style="background-color: #F9CB9C;">
     
     <?php include 'menu.php';?>
     <br>
@@ -26,15 +26,15 @@
                     <div class="card-body">
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Usuario</span>
+                        <span class="input-group-text" id="basic-addon1">Correo</span>
                     </div>
-                    <input value="nick_27" name="nombre" type="text" class="form-control" placeholder="Ingresa tu usuario" aria-label="nombre" aria-describedby="basic-addon1">
+                    <input value="" name="correo" type="text" class="form-control" placeholder="Ingresa tu correo" aria-label="correo" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">Contraseña</span>
                     </div>
-                    <input value="*************" name="nombre" type="text" class="form-control" placeholder="Ingresa tu contraseña" aria-label="nombre" aria-describedby="basic-addon1">
+                    <input value="" name="contrasena" type="text" class="form-control" placeholder="Ingresa tu contraseña" aria-label="contrasena" aria-describedby="basic-addon1">
                     </div>
                     <div>
                         <a href="crear_cuenta.php" class="btn btn-danger">Crear cuenta</a>
