@@ -10,10 +10,10 @@
         <a class="navbar-brand" href="inicio.php">Cakes by Malvyn</a>
         </div>
 
-        <div class="container">
+        <div class="float-right">
           <a class="btn"href="carrito.php"><i class="fas fa-shopping-cart"></i></a>
         </div>
-        <div class="container">
+        <div class="float-right">
         <a class="btn"href="login.php"><i class="fas fa-user"></i></a>
         </div>
 </nav>
