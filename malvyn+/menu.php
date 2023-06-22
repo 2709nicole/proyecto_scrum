@@ -3,6 +3,7 @@
             <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" style="background-color: #white;"><i class="fas fa-bars" ></i></button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="crearpastel.php">Crear Pastel</a>
+            <a class="dropdown-item" href="consultar.php">Consultar</a>
           </div>
         </div>
         
@@ -11,7 +12,7 @@
         </div>
 
         <div class="float-right">
-          <a class="btn"href="carrito.php"><i class="fas fa-shopping-cart"></i></a>
+          <a class="btn"href="consultar.php"><i class="fas fa-sticky-note"></i></a>
         </div>
         <div class="float-right">
         <a class="btn"href="login.php"><i class="fas fa-user"></i></a>
