@@ -18,10 +18,12 @@
     $resultado = $conexion->query($sql);
     $registro = $resultado->fetch_assoc();
     ?>
+
     <div class="container text-center">
         <div class="row">
             <div class="col-12">
                 <hr>
+                    <form action="guardarRegistro.php" method="POST">
                 <div class="card text-center">
                     <div class="card-header">
                         Ingredientes
@@ -147,8 +149,8 @@
                     </div>
                     <div class="card-footer text-muted">
                         <a href="inicio.php" class="btn btn-danger">Cancelar</a>
-                        <a class="btn btn-primary" href="consultar.php">Actualizar</a>
-                    </div>
+                        <input href="" type="submit" class="btn btn-primary" value="actualizar">
+                    </div></form>
                 </div>
             </div>
         </div>

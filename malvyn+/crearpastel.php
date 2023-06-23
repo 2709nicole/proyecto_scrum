@@ -18,6 +18,7 @@
             <div class="col-12">
                 <hr>
                 <div class="card text-center">
+                    <form action="guardarDatos.php" method="POST">
                     <div class="card-header">
                         Ingredientes
                     </div>
@@ -143,6 +144,7 @@
                         <a href="inicio.php" class="btn btn-danger">Cancelar</a>
                         <input type="submit" class="btn btn-primary" value="Crear Pastel">
                     </div>
+</form>
                 </div>
             </div>
         </div>

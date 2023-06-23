@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2023 at 04:01 AM
+-- Generation Time: Jun 23, 2023 at 02:52 AM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -25,27 +25,15 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `betun_color`
+-- Table structure for table `pasteles`
 --
 
-CREATE TABLE `betun_color` (
-  `id_betun` int(11) NOT NULL,
-  `Color` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `usuario`
---
-
-CREATE TABLE `usuario` (
-  `id_usuario` int(11) NOT NULL,
-  `Nombre` varchar(50) NOT NULL,
-  `Domicilio` varchar(100) NOT NULL,
-  `Correo` varchar(50) NOT NULL,
-  `Telefono` varchar(10) NOT NULL,
-  `Contraseña` varchar(50) NOT NULL
+CREATE TABLE `pasteles` (
+  `id` int(11) NOT NULL,
+  `leche` varchar(30) NOT NULL,
+  `pan` varchar(30) NOT NULL,
+  `harina` varchar(30) NOT NULL,
+  `betun` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -53,32 +41,20 @@ CREATE TABLE `usuario` (
 --
 
 --
--- Indexes for table `betun_color`
+-- Indexes for table `pasteles`
 --
-ALTER TABLE `betun_color`
-  ADD PRIMARY KEY (`id_betun`);
-
---
--- Indexes for table `usuario`
---
-ALTER TABLE `usuario`
-  ADD PRIMARY KEY (`id_usuario`);
+ALTER TABLE `pasteles`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `betun_color`
+-- AUTO_INCREMENT for table `pasteles`
 --
-ALTER TABLE `betun_color`
-  MODIFY `id_betun` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `usuario`
---
-ALTER TABLE `usuario`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `pasteles`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
